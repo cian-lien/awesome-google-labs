@@ -1,112 +1,117 @@
 # Awesome Google Labs [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> Google Labs 实验、毕业产品与已关停项目的中文精选清单，涵盖 2002–2011 的老 Labs 与 2023 年重启后的 AI Labs。
+**English** | [简体中文](README.zh-CN.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Français](README.fr.md) | [Deutsch](README.de.md) | [Português (Brasil)](README.pt-BR.md)
 
-Google Labs 是 Google 试水早期想法的地方：实验随时可能毕业成正式产品、并入别的产品，或者直接下线。本清单记录每个项目是什么、现在处于什么状态。
+> A curated list of Google Labs experiments, graduated products and discontinued projects, covering the original 2002–2011 Labs and the AI-focused Labs relaunched in 2023.
 
-最后核对：2026-11-11（以 [labs.google](https://labs.google/) 官网为准）
+Google Labs is where Google tries out early ideas. An experiment can graduate into a full product, get folded into another one, or be shut down at any time. This list tracks what each project is and where it stands today.
 
-状态标记：🧪 实验中 · ⏳ 需排队 · 🎓 已毕业 · 🔀 已合并 · 🪦 已关停
+Last verified: 2026-11-12, against [labs.google](https://labs.google/).
 
-## 目录
+Status: 🧪 Experimental · ⏳ Waitlist · 🎓 Graduated · 🔀 Merged · 🪦 Shut down
 
-- [现役实验](#现役实验)
-  - [开发与构建](#开发与构建)
-  - [效率与生活](#效率与生活)
-  - [学习与科研](#学习与科研)
-- [已毕业的产品](#已毕业的产品)
-- [已关停或被合并](#已关停或被合并)
-- [老 Labs 时代（2002–2011）](#老-labs-时代20022011)
-- [相关资源](#相关资源)
-- [贡献](#贡献)
-- [许可](#许可)
+## Contents
 
-## 现役实验
+- [Current experiments](#current-experiments)
+  - [Build and create](#build-and-create)
+  - [Productivity and everyday life](#productivity-and-everyday-life)
+  - [Learning and research](#learning-and-research)
+- [Graduated products](#graduated-products)
+- [Shut down or merged](#shut-down-or-merged)
+- [The original Labs era (2002–2011)](#the-original-labs-era-20022011)
+- [Related resources](#related-resources)
+- [Contributing](#contributing)
+- [License](#license)
 
-### 开发与构建
+## Current experiments
 
-- 🧪 [Jules](https://jules.google/) - 异步编程智能体，接入 GitHub 仓库后代为修 bug、写测试、加功能。
-- 🧪 [Opal](https://opal.google/landing/) - 用自然语言搭建、修改和分享 AI 小应用。
-- 🧪 [Stax](https://stax.withgoogle.com/) - 评测工具包，上线前测试模型和提示词。
-- ⏳ [Play with Putty](https://labs.google/playwithputty) - 多人实时协作搭建工具和网站的研究项目。
-- 🧪 [Playground](https://labs.google/playground) - 不写代码，用大白话描述就能做出并分享小游戏。
-- 🧪 [Disco](https://labs.google/disco) - 网页 AI 功能试验场，首个功能 GenTabs 把打开的标签页变成定制应用。
+### Build and create
 
-### 效率与生活
+- 🧪 [Opal](https://opal.google/landing/) - Build, edit and share AI mini-apps using natural language.
+- 🧪 [Stax](https://stax.withgoogle.com/) - Evaluation toolkit for testing models and prompts before you ship.
+- 🧪 [Stitch](https://stitch.withgoogle.com/) - "Vibe design" tool that turns ideas directly into UI.
+- ⏳ [Play with Putty](https://labs.google/playwithputty) - Research project where teams build tools and websites together in real time.
+- 🧪 [Playground](https://labs.google/playground) - Create and share small games by describing them in plain language, no code required.
+- 🧪 [Project Genie](https://labs.google/projectgenie) - Experimental research prototype for creating and exploring endlessly varied worlds.
+- 🧪 [Disco](https://labs.google/disco) - Testbed for AI features on the web; its first feature, GenTabs, turns your open tabs into custom apps.
 
-- 🧪 [CC](https://labs.google.com/cc/) - 帮家庭协调日常事务的实验性智能体。
-- 🧪 [Dreambeans](https://labs.google/dreambeans) - 每天按兴趣推送一组个性化内容。
-- 🧪 [Google AI Edge Foresight](https://developers.google.com/edge/foresight) - 在设备本地运行的会议助手，记笔记并回顾要点。
-- 🧪 [Google AI Edge Eloquent](https://ai.google.dev/edge/eloquent) - 把零散的口述整理成清晰、有条理的文字。
+### Productivity and everyday life
 
-### 学习与科研
+- 🧪 [Tabletop](https://tabletop.google/about) - Customizable, collaborative spaces for planning, playing and building together.
+- 🧪 [CC](https://labs.google.com/cc/) - Experimental agent that helps families coordinate everyday logistics.
+- 🧪 [Dreambeans](https://labs.google/dreambeans) - A daily, personalized set of stories on topics you care about.
+- 🧪 [Google AI Edge Foresight](https://developers.google.com/edge/foresight) - On-device meeting assistant that takes notes and resurfaces key details.
+- 🧪 [Google AI Edge Eloquent](https://ai.google.dev/edge/eloquent) - Turns rough spoken thoughts into clear, well-structured writing.
 
-- 🧪 [Learn Your Way](https://learnyourway.withgoogle.com/) - 把学习材料改造成贴合个人的学习体验。
-- 🧪 [Vantage](https://research.google.com/p/vantage) - 通过 AI 模拟团队协作，训练并评估协作、批判性思维等能力。
-- 🧪 [Literature Insights](https://labs.google/science#literature-insights) - 检索论文、整理数据表，生成报告和幻灯片。
-- 🧪 [Hypothesis Generation](https://labs.google/science#hypothesis-generation) - 多智能体工具，仿照科学方法找知识空白并提出假设。
-- 🧪 [Computational Discovery](https://labs.google/science#computational-discovery) - 自动生成并评分代码变体，加速模型发现。
+### Learning and research
 
-## 已毕业的产品
+- 🧪 [Learn Your Way](https://learnyourway.withgoogle.com/) - Transforms study material into a learning experience tailored to you.
+- 🧪 [Vantage](https://research.google.com/p/vantage) - Builds and measures skills such as collaboration and critical thinking through AI-simulated teamwork.
+- 🧪 [Literature Insights](https://labs.google/science#literature-insights) - Finds research papers, organizes data tables and produces reports and slide decks.
+- 🧪 [Hypothesis Generation](https://labs.google/science#hypothesis-generation) - Multi-agent tool that follows the scientific method to spot knowledge gaps and propose hypotheses.
+- 🧪 [Computational Discovery](https://labs.google/science#computational-discovery) - Agentic engine that generates and scores code variants to speed up model discovery.
 
-- 🎓 [Google Gemini](https://gemini.google.com/) - AI 助手，前身 Bard。
-- 🎓 [Gemini Notebook](https://notebooklm.google/) - 基于指定资料的研究与思考助手，前身 Project Tailwind / NotebookLM。
-- 🎓 [Google AI Studio](https://aistudio.google.com/) - 构建应用和网站的 vibe coding 平台，前身 MakerSuite。
-- 🎓 [Google Flow](https://labs.google/fx/tools/flow) - AI 影像创作工作室，前身 VideoFX，后并入 Whisk 与 ImageFX。
-- 🎓 [Google Flow Music](https://www.flowmusic.app/) - AI 音乐工作室，前身 ProducerAI。
-- 🎓 [Stitch](https://stitch.withgoogle.com/) - "vibe design" 设计工具，把想法直接变成 UI。
+## Graduated products
 
-## 已关停或被合并
+- 🎓 [Google Gemini](https://gemini.google.com/) - AI assistant, formerly Bard.
+- 🎓 [Gemini Notebook](https://notebooklm.google/) - Research and thinking partner grounded in your own sources, formerly Project Tailwind and NotebookLM.
+- 🎓 [Google AI Studio](https://aistudio.google.com/) - Vibe coding platform for building apps and websites, formerly MakerSuite.
+- 🎓 [Google Flow](https://labs.google/fx/tools/flow) - AI creative studio for images and video, formerly VideoFX; later absorbed Whisk and ImageFX.
+- 🎓 [Google Flow Music](https://www.flowmusic.app/) - AI music studio, formerly ProducerAI.
 
-| 项目 | 是什么 | 结局 | 时间 |
+## Shut down or merged
+
+| Project | What it was | Outcome | Date |
 | --- | --- | --- | --- |
-| Whisk | 用图片当提示词的图像生成实验 | 🔀 并入 Flow | 2026-04-30 |
-| ImageFX | 文生图实验 | 🔀 并入 Flow | 2026 年 2 月宣布 |
-| Project Mariner | 像人一样操作浏览器的智能体 | 🪦 关停，技术转入 Gemini Agent 等产品 | 2026-05-04 |
-| Mixboard | 集成 Nano Banana 的概念板（情绪板）工具 | 🪦 关停 | 2026-09-28 |
+| ImageFX | Text-to-image experiment | 🔀 Merged into Flow | Announced Feb 2026 |
+| Whisk | Image generation experiment that used images as prompts | 🔀 Merged into Flow | 2026-04-30 |
+| Project Mariner | Agent that operated a web browser like a person | 🪦 Shut down; technology moved into Gemini Agent and other products | 2026-05-04 |
+| Mixboard | Concept (mood) board tool built on Nano Banana | 🪦 Shut down | 2026-09-28 |
+| Jules | Asynchronous coding agent that worked on tasks in your GitHub repos | 🪦 Shutting down; read-only after 2026-11-11, coding-agent work moves to Antigravity | 2026-12-31 |
 
-## 老 Labs 时代（2002–2011）
+## The original Labs era (2002–2011)
 
-老 Labs 于 2002 年上线，2011 年 7 月宣布关停。从这里走出来的产品：
+The original Labs launched in 2002, and Google announced its shutdown in July 2011. Products that came out of it:
 
-- 🎓 [Google Maps](https://maps.google.com/) - 地图服务，靠 AJAX 实现不刷新页面的拖拽与缩放。
-- 🎓 [Google Docs](https://docs.google.com/) - 在线文档。
-- 🎓 [Google Trends](https://trends.google.com/) - 搜索热度趋势。
-- 🎓 [Google Groups](https://groups.google.com/) - 论坛与邮件组。
-- 🎓 Google Suggest - 搜索联想，2004 年诞生于 Labs，后成为搜索的核心部件。
-- 🎓 相似图片搜索 - 后并入 Google 图片搜索。
-- 🪦 Google Reader - RSS 阅读器，2007 年从 Labs 毕业，2013 年停运。
-- 🪦 iGoogle - 个性化主页。
-- 🪦 Google Video - 视频搜索与托管。
-- 🪦 Google Wave - 实时协作工具。
-- 🪦 Google Goggles - 拍照搜索，能力后来由 Google Lens 承接。
-- 🔀 App Inventor - Android 应用可视化开发工具，后移交 MIT，即 [MIT App Inventor](https://appinventor.mit.edu/)。
+- 🎓 [Google Maps](https://maps.google.com/) - Mapping service that used AJAX for drag-and-zoom without page reloads.
+- 🎓 [Google Docs](https://docs.google.com/) - Online documents.
+- 🎓 [Google Trends](https://trends.google.com/) - Search interest over time.
+- 🎓 [Google Groups](https://groups.google.com/) - Forums and mailing lists.
+- 🎓 Google Suggest - Search autocomplete, born in Labs in 2004 and later a core part of Search.
+- 🎓 Similar Images - Later folded into Google Images.
+- 🪦 Google Reader - RSS reader that graduated from Labs in 2007 and was retired in 2013.
+- 🪦 iGoogle - Personalized homepage.
+- 🪦 Google Video - Video search and hosting.
+- 🪦 Google Wave - Real-time collaboration tool.
+- 🪦 Google Goggles - Search by photo; its capabilities were later picked up by Google Lens.
+- 🔀 App Inventor - Visual tool for building Android apps, later handed over to MIT as [MIT App Inventor](https://appinventor.mit.edu/).
 
-另外，Gmail 和 Google Calendar 早期也经 Labs 以邀请制测试，并各自带过 "Labs" 实验功能区（如 Gmail Labs 的离线邮件、任务列表）。
+Gmail and Google Calendar were also tested through Labs on an invite-only basis early on, and each had its own "Labs" area for experimental features (such as offline mail and tasks in Gmail Labs).
 
-## 相关资源
+## Related resources
 
-### 官方
+### Official
 
-- [labs.google](https://labs.google/) - 官网，当前实验的唯一准确来源。
-- [Google Labs 官方博客](https://blog.google/innovation-and-ai/models-and-research/google-labs/) - 新实验与更新公告。
-- [google-labs-code/jules-awesome-list](https://github.com/google-labs-code/jules-awesome-list) - 官方维护的 Jules 提示词清单。
+- [labs.google](https://labs.google/) - The official site and the only authoritative source for current experiments.
+- [Google Labs blog](https://blog.google/innovation-and-ai/models-and-research/google-labs/) - Announcements of new experiments and updates.
+- [google-labs-code/jules-awesome-list](https://github.com/google-labs-code/jules-awesome-list) - Official list of prompts for Jules, which is now being shut down.
 
-### 社区
+### Community
 
-- [codyogden/killedbygoogle](https://github.com/codyogden/killedbygoogle) - Google 已关停产品的"墓地"。
-- [serenakeyitan/awesome-notebookLM-prompts](https://github.com/serenakeyitan/awesome-notebookLM-prompts) - NotebookLM 幻灯片提示词合集。
-- [etewiah/awesome-notebooklm](https://github.com/etewiah/awesome-notebooklm) - NotebookLM 相关工具与示例。
-- [patricklarose/awesome-google](https://github.com/patricklarose/awesome-google) - Google 全线工具与产品清单。
+- [codyogden/killedbygoogle](https://github.com/codyogden/killedbygoogle) - A graveyard of products Google has shut down.
+- [serenakeyitan/awesome-notebookLM-prompts](https://github.com/serenakeyitan/awesome-notebookLM-prompts) - Collection of NotebookLM slide prompts.
+- [etewiah/awesome-notebooklm](https://github.com/etewiah/awesome-notebooklm) - Tools and examples for NotebookLM.
+- [patricklarose/awesome-google](https://github.com/patricklarose/awesome-google) - List of tools and products across Google.
 
-## 贡献
+## Contributing
 
-欢迎提 Issue 或 PR。新增或修改条目时请：
+Issues and pull requests are welcome. When adding or changing an entry, please:
 
-1. 附上官方来源链接（官网、官方博客或权威报道）。
-2. 状态变化（毕业、合并、关停）写明日期。
-3. 描述控制在一句话内，说清"它是什么"。
+1. Include an official source link (official site, official blog or reputable coverage).
+2. Give the date for any status change (graduated, merged or shut down).
+3. Keep the description to one sentence that says what the thing is.
+4. Update the English `README.md` first; the translations follow it.
 
-## 许可
+## License
 
 [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
